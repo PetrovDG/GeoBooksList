@@ -1,0 +1,11 @@
+
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_book_height">108dp</dimen>
+    <dimen name="list_book_width">78dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="double_padding">32dp</dimen>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="text">14sp</dimen>
+</resources>

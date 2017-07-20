@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GeoBooks List</string>
+    <string name="welcome_message">Search the world\'s most comprehensive index of full-text books.
+        \nPlease enter a key word and get a list of published Google books on a geological topic.</string>
+    <string name="keyWord">Please enter a key word here</string>
+    <string name="start_search">Search</string>
+    <string name="book_title">Book Title:</string>
+    <string name="author">Author(s):</string>
+    <string name="pageCount">Pages:</string>
+    <string name="publishedDate">Date:</string>
+    <string name="description">Description:</string>
+    <!-- Text to display in the list when there are no books [CHAR LIMIT=NONE] -->
+    <string name="no_books">No books found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No Internet connection.</string>
+
+    <string name="no_books_found">No books found.\nPlease try other key word.</string>
+</resources>

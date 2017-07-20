@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/main_linear_layout">
+
+        <TextView
+            style="@style/text_view"
+            android:text="@string/welcome_message" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/image"
+            android:src="@drawable/ic_geo_books"
+            tools:ignore="contentDescription" />
+
+        <LinearLayout
+            style="@style/linear_layout"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/key_word_field"
+                style="@style/edit_text" />
+
+            <Button
+                android:id="@+id/clear_button"
+                style="@style/clear_button"
+                android:layout_width="@dimen/double_padding"
+                android:layout_height="@dimen/double_padding" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:drawableStart="@drawable/ic_action_search"
+            android:text="@string/start_search" />
+
+    </LinearLayout>
+
+</ScrollView>
